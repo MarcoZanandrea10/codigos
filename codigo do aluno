@@ -1,0 +1,25 @@
+#include <iostream>
+
+using namespace std;
+
+int main ()
+{
+    string nome, sobrenome, turma;
+    float n1, n2, n3 , mf;
+    cout<<"Nome do aluno: ";
+    cin>>nome;
+    cout<<"Sobrenome do aluno: ";
+    cin>>sobrenome;
+    cout<<"Turma do "<< nome << " " << sobrenome << ": ";
+    cin>>turma;
+    cout<< "nota 1 do aluno: ";
+    cin>>n1;
+    cout<< "nota 2 do aluno: ";
+    cin>>n2;
+    cout<< "nota 3 do aluno: ";
+    cin>>n3;
+    mf = (n1 + n2 + n3)/3;
+    cout<< "Media final do aluno "<< nome << " " << sobrenome << " da turma " << turma <<":"<< mf;
+    return 0;
+
+}
