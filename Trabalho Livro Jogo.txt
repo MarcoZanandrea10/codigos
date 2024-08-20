@@ -1,0 +1,167 @@
+#include <iostream>
+
+using namespace std;
+
+int main() //FEITO POR: Gustavo Segeuca, Marco Zanandrea & Gabriel Gobbi.
+{
+     int escolha;
+        cout << " ===== A Jornada pelo Tempo ===== " << endl;
+
+            cout<<endl<<"       Capitulo 1: O Inicio "<<endl; //INTRODUÇÃO
+        cout<<endl<<"   Voce eh um cientista brilhante que desenvolveu uma maquina do tempo. Depois de anos de pesquisa, voce finalmente consegue ativa-la com sucesso."<<endl;
+        cout<<endl<<"   Agora, voce tem a oportunidade de viajar para diferentes epocas ao longo do tempos para buscar conhecimento."<<endl;
+
+        cout<<endl<<" ======================================================================================================================================================== "<<endl; //COMEÇO DA HISTORIA
+
+            cout<<endl<<"       Capitulo 2: A Escolha "<<endl;
+        cout<<endl<<"   Voce para em frente a maquina do tempo, pronto para embarcar em sua jornada. No entanto, antes de entrar, voce tem que tomar uma decisao crucial: "<<endl;
+        cout<<endl<<" Opcao 1: Desistir da viagem no tempo e continuar sua vida no presente, consciente dos perigos e incertezas que podem surgir ao viajar para o passado distante."<<endl;
+        cout<<endl<<" Opcao 2: Entrar na maquina do tempo e explorar o futuro e buscar conhecimentos avancos para trazer de volta ao seu tempo." <<endl;
+        cout<<endl<<" PARA A OPCAO UM, DIGITE (1); PARA A OPCAO DOIS, DIGITE (2): ",cin>>escolha;
+
+                if (escolha == 1){
+                    cout<<endl<<" ======================================================================================================================================================== "<<endl;
+
+                    cout<<endl<<"        Capitulo 3: Uma Nova Descisao "<<endl;
+                cout<<endl<<"   Ao desistir de viajar no tempo, voce acaba nao conseguindo dormir direito por pensar demais nisso, entao para acabar com esse problema, resolve se livrar da maquina, porem, agora esta na duvida entre:"<<endl;
+                cout<<endl<<" Opcao 1: Destruir a maquina do tempo e acabar com tudo."<<endl;
+                cout<<endl<<" Opcao 2: Enterrar ela para que no futuro alguem a encontre."<<endl;
+                    cout<<endl<<" PARA A OPCAO UM, DIGITE (1); PARA A OPCAO DOIS, DIGITE (2): ",cin>>escolha;
+
+                            if(escolha == 1){ //FIM
+                                cout<<endl<<" ======================================================================================================================================================== "<<endl;
+
+                                cout<<endl<<"           Capitulo 4: Trabalho em Vao "<<endl;
+                            cout<<endl<<"   Apos anos de trabalhos e pesquisas voce percebe que a humanidade nao esta pronta para viajar pelo tempo, pelas diversas circuntacias que isso possa trazer, entao, decide destruir a maquina,";
+                            cout<<"para que a linha do tempo possa ocorrer naturalmente sem interferencias, e finalmente, voce pode dormir tranquilo sabendo que fez o certo."<<endl;
+                                cout<<endl<<"   FIM."<<endl;
+                                cout<<endl<<"   Escrito por: Gabriel Gobbi, Gustavo Segeuca e Marco Zanandrea";
+                                cout<<endl<<"   Roterizado por: Gabriel Gobbi, Gustavo Segeuca e Marco Zanandrea";
+                                cout<<endl<<"   Programado por: Gabriel Gobbi, Gustavo Segeuca e Marco Zanandrea"<<endl;
+                                return 0;
+                           }else{ //FIM
+                                cout<<endl<<" ========================================================================================================================================================"<<endl;
+
+                                cout<<endl<<"           Capitulo 4: Um Final Inesperado "<<endl;
+                            cout<<endl<<"   Apos pensar e repensar muito sobre oque fazer, decide acabar de uma vez por todas com a maquina do tempo, porem ao inves de destruir, voce vai para um lugar muito distante e enterra a maquina junto com uma carta,";
+                            cout<<"para que no futuro alguem a encontre e pensa sabiamente no que fazer, sabendo que ela podera trazer mudancas drasticas para a humanidade. Depois disso voce finalmente consegue viver tranquilo e de conciencia limpa.";
+                            cout<<"seguindo sua vida normalmente. "<<endl;
+                                cout<<endl<<"   FIM."<<endl;
+                                cout<<endl<<"   Escrito por: Gabriel Gobbi, Gustavo Segeuca e Marco Zanandrea";
+                                cout<<endl<<"   Roterizado por: Gabriel Gobbi, Gustavo Segeuca e Marco Zanandrea";
+                                cout<<endl<<"   Programado por: Gabriel Gobbi, Gustavo Segeuca e Marco Zanandrea"<<endl;
+                                return 0;
+                            }
+                }else {
+                    cout<<endl<<" ======================================================================================================================================================== "<<endl;
+
+                    cout<<endl<<"       Capitulo 3: Um Mundo Futuristico"<<endl;
+                cout<<endl<<"   Ao chegar na era futurista, voce decide explorar mais a fundo e tentar entender melhor esse novo mundo. Enquanto caminha pelas ruas movimentadas da cidade, voce eh recebido por olhares curiosos";
+                cout<<"dos habitantes locais, que parecem intrigados com a sua aparencia e vestimentas. A medida que explora, voce se depara com um centro de pesquisas avancado. Parece ser um lugar onde ira";
+                cout<<"encontrar informacoes uteis sobre a tecnologia e a ciencia moderna."<<endl;
+                cout<<endl<<" Opcao 1: Continuar explorando a cidade, e procurar por si mesmo mais velho."<<endl;
+                cout<<endl<<" Opcao 2: Entrar no centro de pesquisa e conversar com os cientistas para aprender mais sobre a tecnologia da epoca."<<endl;
+                    cout<<endl<<" PARA A OPCAO UM, DIGITE (1); PARA A OPCAO DOIS, DIGITE (2): ",cin>>escolha;
+
+                            if ( escolha == 1){ //FIM
+                                cout<<endl<<" ======================================================================================================================================================== "<<endl;
+
+                                cout<<endl<<"       Capitulo 4: Paradoxo Temporal "<<endl;
+                            cout<<endl<<"   Para matar sua curiosidade e querer saber como esta sua vida no futuro, voce acaba indo ate sua casa e entra pelas portas do fundos, maravilhado com tudo que conseguiu conquistar e com as novas tecnologias que as casas futuristicas";
+                            cout<<"possuem, ao olhar pra frente, se depara com voce mesmo, anos mais velho. Na mesma hora, sente um enformigamento subindo pelo copro inteiro, com particulas envolvendo-os, e em um estalo de dedos, os dois desparecem da linha temporal sem deixar";
+                            cout<<"rastros, pois isso acabou criando um paradoxo, sendo impossivel coexistir duas versoes de voce mesmo simultaneamente."<<endl;
+                            cout<<endl<<"   FIM."<<endl;
+                            cout<<endl<<"   Escrito por: Gabriel Gobbi, Gustavo Segeuca e Marco Zanandrea";
+                            cout<<endl<<"   Roterizado por: Gabriel Gobbi, Gustavo Segeuca e Marco Zanandrea";
+                            cout<<endl<<"   Programado por: Gabriel Gobbi, Gustavo Segeuca e Marco Zanandrea"<<endl;
+                            return 0;
+
+                            }else {
+                                cout<<endl<<" ======================================================================================================================================================== "<<endl;
+
+                                cout<<endl<<"       Capitulo 4: Desconfianca no Centro de Pesquisa "<<endl;
+                            cout<<endl<<"   Ao entrar no centro de pesquisa avancado em busca de ajuda para entender o mundo futuristico, os cientistas reagem com preocupacao e revolta ao ouvirem sobre sua viagem no tempo.";
+                            cout<<" Eles temem os paradoxos e distorcoes temporais que sua presenca pode causar, colocando em risco a existencia. Alguns sugerem dete-lo e mante-lo sob vigilancia ate entenderem o impacto de sua presenca.";
+                            cout<<" Percebendo a delicada situacao, voce compreende que precisa lidar com a desconfianca dos cientistas. "<<endl;
+                            cout<<endl<<" Opcao 1: Tentar acalmar os cientistas e convence-los de que voce nao representa uma ameaca, oferecendo sua cooperacao para resolver o problema de forma pacifica."<<endl;
+                            cout<<endl<<" Opcao 2: Decidir sair do centro de pesquisa e buscar ajuda ou informacoes em outro lugar, reconhecendo que a desconfianca dos cientistas pode dificultar sua busca por um entendimento do mundo futurista."<<endl;
+                                cout<<endl<<" PARA A OPCAO UM, DIGITE (1); PARA A OPCAO DOIS, DIGITE (2): ",cin>>escolha;
+
+                                    }if ( escolha == 1){
+                                        cout<<endl<<" ======================================================================================================================================================== "<<endl;
+
+                                        cout<<endl<<"       Capitulo 5: Nao sou uma Ameaca "<<endl;
+                                        cout<<endl<<"   Voce acalma os cientistas e diz que esta disposto a colaborar para que nao ocorra nada de grave com a linha do tempo, assim, ja mais calmos, os cientistas pedem para voce aguardar em uma sala ao lado enquanto eles conversam.";
+                                        cout<<" Como voce esta disposto a colaborar, concorda com a decisao, mas ao chegar na sala, comeca a ouvir uma grande discucao entre eles, alguns com pensamentos bons sobre como poderiam ter tecnologias mais avancados caso voce tenha mais conhecimentos da epoca moderna.";
+                                        cout<<" Ja outros com pensamentos mais agressivos, como prende-lo em uma cela para realizar estudos, ou outros dizendo para acabar com sua vida, pois a sua existencia poderia criar varios paradoxos.";
+                                        cout<<" 1Com tudo isso que voce ouviu, acaba ficando um pouco desconfiado, e toma uma decisao: "<<endl;
+                                            cout<<endl<<" Opcao 1: Permanecer no centro de pesquisas, e tentar a sorte."<<endl;
+                                            cout<<endl<<" Opcao 2: Sair as pressas do centro de pesquisas, pois teme o que pode acontecer."<<endl;
+                                                cout<<endl<<" PARA A OPCAO UM, DIGITE (1); PARA A OPCAO DOIS, DIGITE (2): ",cin>>escolha;
+
+                                                if (escolha == 1){ //FIM
+                                                    cout<<endl<<" ======================================================================================================================================================== "<<endl;
+
+                                                    cout<<endl<<"       Capitulo 6: Rato de Laboratorio "<<endl;
+                                                    cout<<endl<<"   A decisao de ficar no centro de pesquisas nao foi muito boa, pois agora eles estao te usando para fazer pesquisas e realizar experimentos feito um rato de laboratorio, esse de fato eh o fim da sua historia."<<endl;
+                                                    cout<<endl<<"   Fim. "<<endl;
+                                                    cout<<endl<<"   Escrito por: Gabriel Gobbi, Gustavo Segeuca e Marco Zanandrea";
+                                                    cout<<endl<<"   Roterizado por: Gabriel Gobbi, Gustavo Segeuca e Marco Zanandrea";
+                                                    cout<<endl<<"   Programado por: Gabriel Gobbi, Gustavo Segeuca e Marco Zanandrea"<<endl;
+                                                    return 0;
+
+                                                }else{ //FIM
+                                                    cout<<endl<<" ======================================================================================================================================================== "<<endl;
+
+                                                    cout<<endl<<"       Capitulo 6: Fuga do Laboratorio "<<endl;
+                                                    cout<<endl<<"   Ao ouvir tudo isso, voce acaba decidindo que ficar no laboratorio nao vai ser a decisao certa, entao, voce da um jeito de escapar da sala sem que nenhum cientista veja. ";
+                                                    cout<<" Ao sair do laboratorio, voce rapidamente se esconde e usa a maquina do tempo para voltar para casa. Assim, depois de uma longa jornada, voce decide esconder o artefato, pois caso caia nas maos erradas, podera ocorrer uma catastrofe.";
+                                                    cout<<" Logo depois, escreve todas as suas descobertas e conhecimentos em um diario, e o deica guardado com medo da perseguicao. "<<endl;
+                                                    cout<<endl<<"   Fim. "<<endl;
+                                                    cout<<endl<<"   Escrito por: Gabriel Gobbi, Gustavo Segeuca e Marco Zanandrea";
+                                                    cout<<endl<<"   Roterizado por: Gabriel Gobbi, Gustavo Segeuca e Marco Zanandrea";
+                                                    cout<<endl<<"   Programado por: Gabriel Gobbi, Gustavo Segeuca e Marco Zanandrea"<<endl;
+                                                    return 0;
+
+                                                }
+
+                                    }else{
+                                        cout<<endl<<" ======================================================================================================================================================== "<<endl;
+
+                                        cout<<endl<<"       Capitulo 5: A Fuga "<<endl;
+                                        cout<<endl<<"   Quando voce sai do centro de pesquisa, os cientistas, preocupados com o pior, acionam o sistema de alarme, fazendo com que todos da cidade, saibam que voce eh um fugitivo que veio de outro tempo.";
+                                        cout<<" Com isso, diversas pessoas tentam cercar voce, para que voce seja preso. Assustado com tudo isso, voce tem apenas duas opcoes logicas: "<<endl;
+                                        cout<<endl<<" Opcao 1: Aceitar que sera preso, e ver no que vai dar. "<<endl;
+                                        cout<<endl<<" Opcao 2: Usar a maquina do tempo, para voltar a sua epoca em seguranca. "<<endl;
+                                            cout<<endl<<" PARA A OPCAO UM, DIGITE (1); PARA A OPCAO DOIS, DIGITE (2): ",cin>>escolha;
+
+                                                if ( escolha == 1){ //FIM
+                                                        cout<<endl<<" ======================================================================================================================================================== "<<endl;
+
+                                                        cout<<endl<<"       Capitulo 6: Uma Vida na Prisao "<<endl;
+                                                        cout<<endl<<"   Sendo preso, voce foi levado para uma prisao futurista de seguranca maxima para viajantes do tempo. Apos passar anos e anos la dentro ouvindo diversas historias de pessoas que ja viajaram pelo espaco tempo, ";
+                                                        cout<<"recolhe informacoes necessarias para com objetos e tecnologias do futuro contruir uma maquina do tempo e conseguir voltar para casa."<<endl;
+                                                        cout<<endl<<"   Fim. "<<endl;
+                                                        cout<<endl<<"   Escrito por: Gabriel Gobbi, Gustavo Segeuca e Marco Zanandrea";
+                                                        cout<<endl<<"   Roterizado por: Gabriel Gobbi, Gustavo Segeuca e Marco Zanandrea";
+                                                        cout<<endl<<"   Programado por: Gabriel Gobbi, Gustavo Segeuca e Marco Zanandrea"<<endl;
+                                                        return 0;
+
+                                                }else{ //FIM
+                                                    cout<<endl<<" ======================================================================================================================================================== "<<endl;
+
+                                                    cout<<endl<<"       Capitulo 6: De Volta Pro Futuro? "<<endl;
+                                                    cout<<endl<<"   Ao conseguir completar sua fuga com sucesso voce se esconde em um beco, percebe que nao tem ninguem em seus arredores e entao decide usar a maquina do tempo para voltar para casa.";
+                                                    cout<<" Quando finalmente retorna para seu tempo, sente uma forte dor de cabeca e nao lembra de nada que aconteceu, voce olha para frente e ve sua maquina do tempo intacta, que teoricamente, a recem terminou de construir, entao pensa,";
+                                                    cout<<" por que nao viajar para o futuro?"<<endl;
+                                                    cout<<endl<<    "   FIM"<<endl;
+                                                    cout<<endl<<"   Escrito por: Gabriel Gobbi, Gustavo Segeuca e Marco Zanandrea";
+                                                    cout<<endl<<"   Roterizado por: Gabriel Gobbi, Gustavo Segeuca e Marco Zanandrea";
+                                                    cout<<endl<<"   Programado por: Gabriel Gobbi, Gustavo Segeuca e Marco Zanandrea"<<endl;
+                                                    return 0;
+
+                                            }
+                                    }
+                            }
+    return 0;
+}
